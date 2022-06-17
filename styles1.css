@@ -1,0 +1,46 @@
+*{
+    margin: auto;
+    padding: 0;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    'one    one     two'
+    'three  four    four'
+    'three  five    five'
+    ;
+    gap: 1;
+} 
+
+main div{
+    width: 100px;
+    height: 50px;
+}
+
+.one{
+    background-color: rgb(92, 85, 85);
+    grid-area: one;
+}
+
+.two{
+    background-color: aqua;
+    grid-area: two;
+}
+
+.three{
+    background-color: blueviolet;
+    grid-area: three;
+}
+
+.four{
+    background-color: brown;
+    grid-area: four;
+}
+
+.five{
+    background-color: rgb(87, 87, 28);
+    grid-area: five;
+}
