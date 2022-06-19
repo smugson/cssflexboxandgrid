@@ -41,6 +41,6 @@ main div{
 }
 
 .five{
-    background-color: rgb(87, 87, 28);
+    background-color: brown;
     grid-area: five;
 }
